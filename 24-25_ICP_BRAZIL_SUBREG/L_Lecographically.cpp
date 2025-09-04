@@ -1,3 +1,22 @@
+/*
+A list of N integers a1,…,aN is stored in the memory of an electronic device. This device has a very peculiar operation available: bit swapping between numbers. More precisely, given integers i, j and k, this operation swaps the kth bit of the integer ai with the kth bit of the integer aj
+(and vice-versa).
+
+Very interesting phenomena can occur when performing this operation one or more times, such as obtaining numbers that did not even belong to the original list, or even numbers larger or smaller than all the original elements.
+
+For this problem, we are interested in using the operation as many times as necessary to change the list of numbers so that the resulting list is the lexicographically maximum, that is, that a1 is the largest possible, that a2 is the largest possible among the possible solutions that maximize a1,
+and so on.
+
+Input:
+
+The first line of input contains an integer N(1≤N≤105) and the second line contains N integers, separated by spaces, corresponding to the list a1,…,aN (0≤ai≤109).
+
+Output:
+
+Your program should print a single line containing N space-separated integers corresponding to the lexicographically maximum obtainable sequence
+*/
+
+
 #include <iostream>
 
 using namespace std;
