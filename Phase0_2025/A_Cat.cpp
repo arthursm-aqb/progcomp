@@ -21,6 +21,7 @@ using namespace std;
 int main() {
 
     std::ios_base::sync_with_stdio(0);
+    cin.tie(NULL);
     int C, G; cin >> C >> G;
     switch (C) {
         case 0:
@@ -33,3 +34,4 @@ int main() {
 
     return 0;
 }
+
