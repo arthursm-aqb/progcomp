@@ -26,7 +26,7 @@ int main() {
     switch (C) {
         case 0:
             if (G) cout << "vivo\n";
-            else cout << "morto";
+            else cout << "morto\n";
             break;
         case 1:
             cout << "vivo e morto\n";
@@ -34,4 +34,5 @@ int main() {
 
     return 0;
 }
+
 
